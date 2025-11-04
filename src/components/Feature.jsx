@@ -1,6 +1,6 @@
 const Feature = () => {
   return (
-    <div className="mt-10 flex max-w-7xl items-center justify-around p-3">
+    <div className="mt-10 flex items-center justify-around p-3">
       <h1 className="w-1/2 bg-linear-to-b from-neutral-100 to-neutral-500 bg-clip-text text-5xl font-bold text-transparent">
         Who said finance has to be boring?
       </h1>

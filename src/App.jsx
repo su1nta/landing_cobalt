@@ -4,14 +4,15 @@ import Feature from "./components/Feature";
 import Bento from "./components/Bento";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
-      <div className="flex flex-col items-center justify-center bg-neutral-900">
-        <Hero />
-        <Feature />
-        <Bento />
+      <div className="min-h-sceeen w-screen bg-neutral-900">
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-center">
+          <Hero />
+          <Feature />
+          <Bento />
+        </div>
       </div>
     </>
   );
