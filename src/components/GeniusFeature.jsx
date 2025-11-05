@@ -7,7 +7,7 @@ function GeniusFeature() {
     to decode complex financial figures and <span className="text-white">illuminate key trends</span> in your business.</>
     return (
         <>
-            <div className="w-full flex flex-col gap-4">
+            <div className="w-full flex flex-col gap-4 mb-20">
                 <div className="w-full flex justify-start">
                     <FeatureText title={title} subtitle={subtitle} />
                 </div>
