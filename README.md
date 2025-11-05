@@ -47,10 +47,10 @@ public/
 
 ## Future Enhancements
 
-- Flesh out `Bento.jsx` with feature tiles or testimonial cards
-- Add navigation and footer components for a full marketing page
-- Integrate form handling (e.g., waitlist signup) with a backend or SaaS
-- Expand responsive design coverage with additional breakpoints and tests
+- [x] Flesh out `Bento.jsx` with feature tiles or testimonial cards
+- [ ] Add navigation and footer components for a full marketing page
+- [ ] Integrate form handling (e.g., waitlist signup) with a backend or SaaS
+- [ ] Expand responsive design coverage with additional breakpoints and tests
 
 ## Tooling
 
