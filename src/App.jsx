@@ -4,6 +4,7 @@ import Feature from "./components/Feature";
 import GeniusFeature from "./components/GeniusFeature";
 import Bento from "./components/Bento";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <Feature />
           <Bento />
           <GeniusFeature />
+          <Footer />
         </div>
       </div>
     </>
