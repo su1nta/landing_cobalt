@@ -10,8 +10,8 @@ function App() {
 
   return (
     <>
-      <div className="min-h-sceeen w-screen bg-neutral-950">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-center">
+      <div className="min-h-sceeen md:w-screen bg-neutral-950">
+        <div className="mx-auto flex max-w-full sm:max-w-7xl flex-col items-center justify-center">
           <Header />
           <Hero />
           <Feature />

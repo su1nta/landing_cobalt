@@ -28,14 +28,14 @@ const Bento = () => {
           </h4>
         </div> */}
         <FeatureText title={title} subtitle={subtitle} />
-        <div className="mt-20 grid gap-5 lg:grid-cols-6 xl:grid-cols-12">
-          <div className="relative h-140 rounded-3xl bg-neutral-900 border border-neutral-800 lg:col-span-3 xl:col-span-4 overflow-hidden"><Box1 /></div>
-          <div className="h-140 rounded-3xl bg-neutral-900 border border-neutral-800 lg:col-span-3 xl:col-span-4 overflow-hidden"><Box2 /></div>
-          <div className="h-140 rounded-3xl bg-neutral-900 border border-neutral-800 lg:col-span-6 xl:col-span-4"><Box3 /></div>
-          <div className="order-5 h-120 bg-neutral-900 rounded-3xl border border-neutral-800 lg:order-4 lg:col-span-6 xl:col-span-7 flex items-center justify-center hover:bg-linear-to-t hover:from-neutral-800 hover:to-transparent transition duration-400 ease-in-out">
+        <div className="mt-20 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-5 px-2">
+          <div className="relative h-140 rounded-3xl bg-neutral-900 border border-neutral-800 overflow-hidden col-span-1 lg:col-span-2"><Box1 /></div>
+          <div className="h-140 rounded-3xl bg-neutral-900 border border-neutral-800 overflow-hidden col-span-1 lg:col-span-3"><Box2 /></div>
+          <div className="h-140 order-3 md:order-4 rounded-3xl bg-neutral-900 border border-neutral-800 col-span-1 lg:col-span-2"><Box3 /></div>
+          <div className="h-120 order-4 md:order-5 bg-neutral-900 rounded-3xl border border-neutral-800 flex items-center justify-center hover:bg-linear-to-t hover:from-neutral-800 hover:to-transparent transition duration-400 ease-in-out col-span-1 md:col-span-2 lg:col-span-5">
             <h1 className="text-neutral-500 italic font-display text-7xl max-w-2/3 cursor-pointer text-center">too lazy to complete</h1>
           </div>
-          <div className="order-4 h-120 bg-neutral-900 rounded-3xl border border-neutral-800 lg:order-5 lg:col-span-3 xl:col-span-5"><Box4 /></div>
+          <div className="h-140 md:120 order-5 md:order-3 bg-neutral-900 rounded-3xl border border-neutral-800 col-span-1 lg:col-span-3"><Box4 /></div>
         </div>
       </div>
     </>
