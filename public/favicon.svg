@@ -1,0 +1,20 @@
+<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+    <style>
+        .favicon-stroke {
+        fill: #181818;
+        }
+        .favicon-dot {
+        fill: #006ADC;
+        }
+        @media (prefers-color-scheme: dark) {
+        .favicon-stroke { stroke: #FAFAFA }
+        .favicon-dot { fill: #006ADC }
+        }
+    </style>
+    <path class="favicon-dot" d="M52.36 40a10 10 0 1 1-20 0 10 10 0 0 1 20 0Z" fill="none" />
+    <path class="favicon-stroke"
+        d="M69.84 55.4a31.5 31.5 0 1 1 0-30.81l7.8-3.47a40 40 0 1 0 0 37.77l-7.8-3.48Z" fill="none" />
+    <path class="favicon-stroke" fill-rule="evenodd" clip-rule="evenodd"
+        d="M67.36 40a25 25 0 1 1-50 0 25 25 0 0 1 50 0Zm-8.5 0a16.5 16.5 0 1 1-33 0 16.5 16.5 0 0 1 33 0Z"
+        fill="none" />
+</svg>

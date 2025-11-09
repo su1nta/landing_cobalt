@@ -3,8 +3,8 @@ import Button from "./Button";
 const Hero = () => {
   return (
     <div className="mt-40 mb-20 flex flex-col items-center">
-      <h1 className="font-display max-w-2xl bg-linear-to-b from-neutral-50 to-neutral-600 bg-clip-text text-center text-7xl tracking-tighter text-transparent italic">
-        Unleash the power of intuitive finance
+      <h1 className="font-display max-w-2xl bg-linear-to-b from-neutral-50 to-neutral-600 bg-clip-text text-center text-7xl -tracking-[5px] text-transparent italic">
+        Unleash the power of intuitive <span className="leading-snug">finance</span>
       </h1>
       <p className="selection:bg-primary mt-10 max-w-xl text-center text-lg text-neutral-400 selection:text-white">
         Say goodbye to the <span className="bg-primary text-black px-2">outdated</span> financial tools.

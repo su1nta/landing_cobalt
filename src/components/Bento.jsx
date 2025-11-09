@@ -6,7 +6,7 @@ import Box4 from "./bento/Box-4";
 const Bento = () => {
   const title = <>Everything you need.
             <br />
-            Nothing you don't</>
+            <span className="leading-snug">Nothing you don't</span></>
   const subtitle = <>
                 Financial management and visibility in one place. Experience{" "}
                 <span className="text-neutral-200">a flexible toolkit</span> that
