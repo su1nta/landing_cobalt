@@ -18,7 +18,7 @@ const Hero = () => {
         <img
           src={bannerImage}
           alt="Banner Image"
-          className="sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl rounded-lg border border-neutral-700 object-cover"
+          className="sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl rounded-lg border border-neutral-700 object-cover"
         />
       </div>
     </div>

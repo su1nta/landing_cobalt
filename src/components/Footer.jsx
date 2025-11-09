@@ -27,21 +27,20 @@ function Footer() {
                         <Button />
                     </div>
                 </div>
-                <div className="flex flex-col gap-4 p-2 h-2/6 w-full">
-                    <div className="h-1/5 flex items-center justify-between">
-                        <div className="flex gap-4 text-sm text-neutral-400">
+                <div className="flex flex-col gap-8 lg:gap-4 p-2 h-2/6 w-full">
+                    <div className="h-1/5 flex flex-col lg:flex-row gap-4 items-center justify-between">
+                        <div className="order-2 lg:order-1 flex gap-4 text-sm text-neutral-400">
                             <span>&copy; 2025 Bocalt Financial Technologies Inc.</span>
                             <span className="cursor-pointer hover:text-neutral-50 transition duration-300 ease-in">Privacy Policy</span>
                             <span className="cursor-pointer hover:text-neutral-50 transition duration-300 ease-in">Terms of use</span>
                         </div>
-                        <div className="flex items-center justify-center gap-4">
-
+                        <div className="order-1 lg:order-2 flex items-center justify-center gap-4">
                             <img src={X} alt="X Logo" className="size-8 bg-neutral-600 p-2 rounded-md cursor-pointer" />
                             <img src={LinkedIn} alt="LinkedIn Logo" className="size-8 bg-neutral-600 p-2 rounded-md cursor-pointer" />
                             <img src={Facebook} alt="Facebook Logo" className="size-8 bg-neutral-600 p-2 rounded-md cursor-pointer" />
                         </div>
                     </div>
-                    <div className="h-4/5 flex flex-col gap-4 text-sm text-neutral-600">
+                    <div className="h-4/5 flex flex-col gap-4 text-sm text-neutral-600 text-center lg:text-left">
                         <p className="max-w-3xl">Bocalt is a trademark or registered trademark of Bocalt Financial Technologies Inc. Any other trademarks are the property of their respective owners. Unless otherwise noted, use of third party logos does not imply endorsement of, sponsorship of, or affiliation with Bocalt.</p>
                         <p className="max-w-3xl">Bocalt is a financial technology company, not a bank. Banking services are provided by Telcric Bank and Veeolve Bank & Trust®, Members FDIC.</p>
                     </div>

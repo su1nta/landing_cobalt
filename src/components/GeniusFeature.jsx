@@ -8,10 +8,10 @@ function GeniusFeature() {
     return (
         <>
             <div className="w-full flex flex-col gap-4 mb-20">
-                <div className="w-full flex justify-start">
+                <div className="w-full flex justify-start sm:px-8">
                     <FeatureText title={title} subtitle={subtitle} />
                 </div>
-                <div>
+                <div className="w-full">
                     <AnotherBento />
                 </div>
             </div>

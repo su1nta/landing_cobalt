@@ -4,8 +4,8 @@ import Warning from "../assets/logo/warning.svg";
 function AnotherBento() {
   return (
     <>
-    <div className="flex w-full justify-between">
-        <div className="m-4 h-100 w-1/2 rounded-3xl bg-neutral-900">
+    <div className="flex flex-col lg:flex-row w-full justify-center items-center">
+        <div className="m-4 h-100 md:w-5/6 lg:w-1/2 rounded-3xl bg-neutral-900">
         <div className="h-3/5 w-full mask-b-from-70%">
             <div className="relative flex h-full w-full items-center text-white">
               {/* Gradient Diagonal Lines Pattern */}
@@ -115,7 +115,7 @@ function AnotherBento() {
             </h6>
         </div>
         </div>
-        <div className="m-4 h-100 w-1/2 rounded-3xl bg-neutral-900">
+        <div className="m-4 h-100 md:w-5/6 lg:w-1/2 rounded-3xl bg-neutral-900">
         <div className="h-3/5 w-full">
             <div className="relative flex h-full w-full flex-col items-center justify-center rounded-3xl">
               {/* Diagonal Fade Center Grid Background */}
