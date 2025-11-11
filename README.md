@@ -1,4 +1,4 @@
-# Cobalt Finance Landing Page
+# Cobalt Finance Landing Page [(Live Link)](https://landing-cobalt.vercel.app)
 
 Modern marketing splash page for a fictional small-business finance platform. Built with React 19, Vite 7, and Tailwind CSS v4 to showcase a hero pitch, product positioning, and future feature highlights.
 
@@ -49,8 +49,8 @@ public/
 
 - [x] Flesh out `Bento.jsx` with feature tiles or testimonial cards
 - [ ] Add navigation and footer components for a full marketing page
-- [ ] Integrate form handling (e.g., waitlist signup) with a backend or SaaS
-- [ ] Expand responsive design coverage with additional breakpoints and tests
+<!-- - [ ] Integrate form handling (e.g., waitlist signup) with a backend or SaaS -->
+- [x] Expand responsive design coverage with additional breakpoints and tests
 
 ## Tooling
 
