@@ -5,6 +5,14 @@
   --color-primary: oklch(68.5% 0.169 237.323);
   --font-display: "Instrument", Serif;
   --font-logo: "Tomorrow";
+  
+  --breakpoint-mobiles: 320px;
+  --breakpoint-mobilem: 375px;
+  --breakpoint-mobilel: 425px;
 }
 
-
+@layer base {
+  html, body {
+    @apply bg-neutral-950;
+  }
+}

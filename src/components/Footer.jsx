@@ -7,7 +7,7 @@ import Facebook from '../assets/logo/facebook.svg';
 function Footer() {
     return (
         <>
-            <div className="h-180 w-full divide-y divide-neutral-600 relative">
+            <div className="h-auto w-full divide-y divide-neutral-600 relative">
                 <div 
                 className="absolute inset-0 pointer-events-none z-0 mask-x-from-50%"
                 style={{
@@ -19,7 +19,7 @@ function Footer() {
                 `,
                 }}
                 />
-                <div className="flex flex-col gap-4 items-center justify-center h-4/6 w-full relative">
+                <div className="flex flex-col gap-4 items-center justify-center py-30 w-full relative">
                     <div className="via-primary absolute inset-x-0 top-0.5 h-px w-full bg-linear-to-r from-transparent from-30% to-transparent to-70% opacity-70 transition ease-in duration-400" />
                     <h1 className="max-w-xl text-4xl text-center font-bold text-transparent bg-clip-text bg-linear-to-b from-neutral-200 to-neutral-700"> See where financial automation can take your business.</h1>
                     <h4 className="text-xl text-center text-neutral-500">The first financial tool you'll love. And the last one you'll ever need.</h4>
@@ -27,9 +27,9 @@ function Footer() {
                         <Button />
                     </div>
                 </div>
-                <div className="flex flex-col gap-8 lg:gap-4 p-2 h-2/6 w-full">
+                <div className="flex flex-col gap-8 lg:gap-4 p-2 mt-5 w-full">
                     <div className="h-1/5 flex flex-col lg:flex-row gap-4 items-center justify-between">
-                        <div className="order-2 lg:order-1 flex gap-4 text-sm text-neutral-400">
+                        <div className="order-2 lg:order-1 flex flex-col items-center md:flex-row gap-4 text-sm text-neutral-400">
                             <span>&copy; 2025 Bocalt Financial Technologies Inc.</span>
                             <span className="cursor-pointer hover:text-neutral-50 transition duration-300 ease-in">Privacy Policy</span>
                             <span className="cursor-pointer hover:text-neutral-50 transition duration-300 ease-in">Terms of use</span>

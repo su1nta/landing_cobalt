@@ -3,7 +3,7 @@ import Button from './Button'
 function Header() {
     return (
         <>
-            <div className="w-full flex items-center justify-between h-20 px-10 2xl:px-0">
+            <div className="w-full flex flex-col gap-4 mobilel:gap-0 mt-5 mobilel:mt-0 mobilel:flex-row items-center justify-between h-20 px-10 2xl:px-0">
                 <div>
                     <h1 className="text-3xl text-white font-logo cursor-pointer">bocalt</h1>
                 </div>

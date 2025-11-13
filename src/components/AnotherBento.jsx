@@ -136,14 +136,14 @@ function AnotherBento() {
             <button className="z-10 rounded-md border border-sky-800 bg-transparent px-2 py-1 text-white shadow-[0px_0px_38px_20px_rgba(0,166,244,0.5)]">
                 Hey! How can I help you?
             </button>
-            <div className="absolute bottom-0 flex h-12 w-3/4 items-center justify-between rounded-sm border border-neutral-700">
-                <span className="flex w-3/4 gap-2 px-3 text-neutral-400">
+            <div className="absolute bottom-0 flex h-12 w-full md:w-3/4 items-center justify-between rounded-sm border border-neutral-700">
+                <span className="flex w-3/4 gap-2 px-3 text-neutral-400 text-sm mobilel:text-md">
                 <img src={Sparkle} alt="Sparkle" className="size-6" />
                 Who's our most profitable customer?
                 </span>
                 <span className="group relative w-1/4">
                 <button
-                    className="bg-primary relative z-10 cursor-pointer rounded-lg px-2 py-1 font-bold text-white transition duration-300 ease-in hover:bg-sky-600"
+                    className="bg-primary relative z-10 cursor-pointer rounded-lg px-2 sm:px-3 py-1 mobilem:py-2 font-bold text-white text-sm md:text-md transition duration-300 ease-in hover:bg-sky-600"
                     style={{
                     backgroundImage: `
                                         radial-gradient(ellipse at 20% 30%, rgba(56, 189, 248, 0.4) 0%, transparent 30%),
