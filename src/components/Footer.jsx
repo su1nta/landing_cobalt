@@ -30,7 +30,7 @@ function Footer() {
                 <div className="flex flex-col gap-8 lg:gap-4 p-2 mt-5 w-full">
                     <div className="h-1/5 flex flex-col lg:flex-row gap-4 items-center justify-between">
                         <div className="order-2 lg:order-1 flex flex-col items-center md:flex-row gap-4 text-sm text-neutral-400">
-                            <span>&copy; 2025 Bocalt Financial Technologies Inc.</span>
+                            <span>2025; Inspired from Manu Arora of <span className="text-neutral-200 font-bold">Aceternity UI</span></span>
                             <span className="cursor-pointer hover:text-neutral-50 transition duration-300 ease-in">Privacy Policy</span>
                             <span className="cursor-pointer hover:text-neutral-50 transition duration-300 ease-in">Terms of use</span>
                         </div>
